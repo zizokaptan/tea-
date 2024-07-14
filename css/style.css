@@ -1,0 +1,26 @@
+@import url(./L.css);
+@import url(./sm.css);
+@import url(./m.css);
+@import url(./xl.css);
+@import url(./xs.css);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: vaziri;
+    src: url(./../fonts/vazir-font-v16.1.0/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff2);
+}
+
+:root{
+    font-size: 0.625rem;
+    font-family: vaziri;
+}
+
